@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(
-  page_title="용돈 계산",
+  page_title="용돈",
   page_icon = "💻"
 )
 
