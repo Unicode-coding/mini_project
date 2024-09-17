@@ -1,5 +1,10 @@
 import streamlit as st
 
+st.set_page_config(
+  page_title="용돈 계산",
+  page_icon = "💻"
+)
+
 # 함수: 휴대폰 사용 시간을 기반으로 용돈 계산
 def calculate_allowance(hours, minutes):
     # 입력받은 시간과 분을 모두 분으로 변환
